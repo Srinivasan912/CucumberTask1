@@ -407,8 +407,7 @@ formatter.match({
   "location": "StepDefinition.the_User_Should_navigate_to_Home_Page()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: Valid Login\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.steps.StepDefinition.the_User_Should_navigate_to_Home_Page(StepDefinition.java:56)\r\n\tat ✽.The User Should navigate to Home Page(file:src/test/resources/Features/login.feature:40)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"

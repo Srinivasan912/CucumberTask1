@@ -11,10 +11,10 @@ import io.cucumber.junit.CucumberOptions;
 				dryRun = false, 
 				tags = "@invalid or @valid", 
 				monochrome=true,
-				plugin = {"pretty",
-						"html:src\\test\\resources\\Reports\\htmlreport",
+				plugin = {"html:src\\test\\resources\\Reports\\htmlreport",
 						"json:src\\test\\resources\\Reports\\jsonreport\\report.json",
-						"junit:src\\test\\resources\\Reports\\Junitreport\\report.xml"
+						"junit:src\\test\\resources\\Reports\\Junitreport\\report.xml",
+						"rerun:src\\test\\resources\\failedScenario\\failed.txt"
 				})
 public class TestRunner {
 
